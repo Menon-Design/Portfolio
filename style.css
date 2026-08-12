@@ -35,9 +35,6 @@ a{
 	font-weight: 600;
 	margin: 29px 0px 0px 40px;
 }
-.navi-button, .navi-icon {
-  display: none;
-}
 .header_button{
 	display: flex;
 	border: #052848 1px solid;
@@ -119,9 +116,6 @@ a{
 	}
 	.header_button li + li::before{
 		background-color: rgba(255, 255, 255, 0);
-	}
-	#navi_button:checked ~ .global_nav{
-		display: block;
 	}
 	#navi_button:checked ~ .navi_icon span{
 		background-color: rgba(255, 255, 255, 0);
@@ -270,9 +264,11 @@ a{
 	margin: -94px 0 70px;
 }
 
+.works_trance{
+	transition: all 0.2s;
+}
 .works_trance :hover{
 	transform: scale(1.04);
-	transition: all 0.2s;
 }
 .works_title{
 	font-size: 20px;
