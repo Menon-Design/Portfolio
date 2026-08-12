@@ -264,11 +264,9 @@ a{
 	margin: -94px 0 70px;
 }
 
-.works_trance{
-	transition: all 0.2s;
-}
 .works_trance :hover{
 	transform: scale(1.04);
+	transition: all 0.2s;
 }
 .works_title{
 	font-size: 20px;
